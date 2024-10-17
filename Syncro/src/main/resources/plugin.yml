@@ -1,0 +1,16 @@
+name: Syncro
+version: '${project.version}'
+main: fr.kevingr19.syncro.Syncro
+api-version: '1.20'
+depend: [MCTeams, GameSetup]
+
+commands:
+  syncro:
+    description: Permet d'interagir avec le plugin Syncro
+    usage: /syncro <action> <arguments...>
+    aliases: [s]
+
+permissions:
+  syncro.owner:
+    description: Permet de modifier les paramètres de jeu
+    default: false

@@ -1,0 +1,38 @@
+§lRègles de Syncro§r
+
+Battez l'Ender Dragon en premier.
+
+- Vous partagez la même §cbarre de vie§r avec vos coéquipiers.
+- Si l'un de vous meurt, tout le monde meurt.
+--PAGE
+§lInventaire commun§r
+
+L'équipe dispose d'un inventaire commun.
+§3/syncro inventory§r
+
+§cCelui qui meurt perd§r
+- Ses objets
+- Son XP
+- Le contenu de l'inventaire d'équipe
+
+Les autres ne perdent rien.
+--PAGE
+§lBataille de l'End§r
+
+Assénez le coup final à §5l'Ender Dragon§r pour gagner.
+
+§cATTENTION : Certains dégâts ne sont pas détectés§r
+- Les explosions de lits
+--PAGE
+§lCommandes (1/2)§r
+N'oubliez pas §6§l/help§r en cas de problème.
+
+§3/t§r : Parlez à votre équipe §7§o(par défaut)§r.
+§3/g§r : Parlez au serveur.
+§3/sendpos§r : Envoyez vos coordonées à votre équipe §7§o(avec commentaire)§r.
+--PAGE
+§lCommandes (2/2)§r
+
+§3/syncro§r ou §3/s§r : Commande du plugin.
+§3/syncro inventory§r : Inventaire d'équipe.
+§3/syncro stats§r : Statistiques des joueurs ou des équipes.
