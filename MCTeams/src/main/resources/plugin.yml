@@ -1,0 +1,38 @@
+name: MCTeams
+version: '${project.version}'
+main: fr.kevingr19.mcteams.MCTeams
+api-version: '1.20'
+
+commands:
+  team:
+    description: Permet de gérer les équipes
+    permission: mcteams.command
+
+  t:
+    description: Envoie un message à l'équipe
+    usage: /t <message>
+
+  g:
+    description: Envoie un message à tout le serveur
+    usage: /g <message>
+
+  sendpos:
+    description: Envoie les coordonnées du joueur à son équipe
+    usage: /sendpos <commentaire>
+
+permissions:
+  mcteams.command:
+    description: Permet d'exécuter la commande team.
+    default: true
+
+  mcteams.manager:
+    description: Permet de gérer la composition des équipes.
+    default: false
+    children:
+      mcteams.command: true
+
+  mcteams.admin:
+    description: Permet de gérer les paramètres des équipes.
+    default: false
+    children:
+      mcteams.manager: true
