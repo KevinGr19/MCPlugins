@@ -1,0 +1,19 @@
+name: GameSetup
+version: '${project.version}'
+main: fr.kevingr19.gamesetup.GameSetup
+api-version: '1.20'
+description: Automates the beginning and the end of a game-mode.
+
+commands:
+  lobby:
+    description: Starts the lobby
+    permission: op
+
+  setowner:
+    description: Changes the owner of the game
+    permission: gamesetup.owner
+
+permissions:
+  gamesetup.owner:
+    description: Owner of the game
+    default: false

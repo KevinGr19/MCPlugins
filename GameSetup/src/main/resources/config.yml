@@ -1,0 +1,4 @@
+automatic:
+  enabled: true
+  inactivity_timeout: 120
+  game_end_timeout: 180
