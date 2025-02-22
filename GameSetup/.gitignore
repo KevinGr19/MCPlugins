@@ -25,6 +25,7 @@ target/
 
 # Package Files #
 *.jar
+!release/**
 *.war
 *.nar
 *.ear
